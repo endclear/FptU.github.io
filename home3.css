@@ -1,0 +1,85 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+body{
+    font-family: 'Roboto';
+    margin: 0 ;
+    position: relative;
+    width: 100%;
+}
+#header{
+    width: 1272px;
+    margin: 0 auto;
+    height: 72px;
+}
+.logo img{
+    position: absolute;
+    width: 192px;
+    height: 38px;
+    left: 0;
+    top: 16px;
+}
+#navMenu{
+    position: relative;
+    background-color:#F27125;
+    width: 100%;
+}
+#Nav{
+    position:relative;
+    width: 1272px;
+    margin: 0 auto;
+    min-height: 52px;
+    background-color:#F27125;
+}
+.navbar{
+    padding: 0;
+}
+#navbarNav{
+    width: 100%;
+}
+#navbarNav ul{
+    width: 100%;
+}
+
+#navbarNav ul li{ 
+    padding-top: 8px;
+    width: 100%;
+}
+#navbarNav ul li a{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+}
+#navbarNav ul li a:hover{
+    color: rgb(255, 21, 21);
+}
+#contents{
+    position: relative;
+    width: 1272px;
+    margin: 0 auto;
+    margin-top: 16px;
+    min-height: 700px;
+    background-color: cornsilk;
+}
+#leftContent{
+    position:absolute;
+    left: 0;
+    height: 700px;
+    width: 298px;
+    background-color: crimson;
+}
+#maincontent{
+    position: absolute;
+    right: 0;
+    height: 700px;
+    background-color: forestgreen;
+}
+#footer{
+    position: relative;
+    height: 100px;
+    width: 100%;
+    background-color: darkslategrey;
+    background-size: cover;
+}
