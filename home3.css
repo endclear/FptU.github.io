@@ -5,7 +5,8 @@ body{
     position: relative;
     width: 100%;
 }
-#header{
+#header_top{
+    position: relative;
     width: 1272px;
     margin: 0 auto;
     height: 72px;
@@ -17,6 +18,23 @@ body{
     left: 0;
     top: 16px;
 }
+#userInfo{
+    padding-top:23px;
+}
+#userInfo img{
+    right: 0;
+}
+
+#img-user{
+    width: 28px;
+    height: 28px;
+}
+
+#logout img{
+    width: 124px;
+    height: 36px;
+}
+
 #navMenu{
     position: relative;
     background-color:#F27125;
@@ -36,12 +54,13 @@ body{
     width: 100%;
 }
 #navbarNav ul{
+    display: flex;
+    justify-content: space-between;
     width: 100%;
 }
 
 #navbarNav ul li{ 
     padding-top: 8px;
-    width: 100%;
 }
 #navbarNav ul li a{
     font-style: normal;
